@@ -15,12 +15,12 @@ body {
   margin-bottom: 106px;
 }
 .navigation-list {
-  width: 466;
+  width: 466px;
   float: right;
   margin-top: 6px;
 }
 .navigation-list li {
-  margin-right: 30px;
+  margin-right: 28px;
   float: left;
 }
 .navigation-list li:last-child {
@@ -117,10 +117,9 @@ h3 {
   padding: 6px 0 0 0;
   filter: opacity(44%);
 }
-/* HOVER */
-.product-list-item h3:hover,
-.product-list-item p:hover,
-.product-list-item a:hover {
+.product-list-item:hover h3,
+.product-list-item:hover p,
+.product-list-item:hover a {
   background-color: rgb(26, 188, 156);
 }
 .news {
