@@ -14,6 +14,9 @@ body {
   padding-top: 38px;
   margin-bottom: 106px;
 }
+a {
+  text-decoration: none;
+}
 .navigation-list {
   width: 466px;
   float: right;
@@ -79,11 +82,13 @@ h2::after {
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
+  width: 255px;
 }
 .product-list li:nth-of-type(4n) {
   margin-right: 0;
 }
-h3 {
+h3 a {
+  display: block;
   font-family: "Roboto", Arial, sans-serif;
   line-height: 1.714;
   font-size: 18px;
@@ -139,7 +144,6 @@ h4 {
   font-size: 18px;
   color: rgb(85, 82, 82);
   line-height: 1.444;
-  width: 350px;
   font-weight: bold;
 }
 h4::after {
@@ -157,12 +161,12 @@ h4::after {
   font-family: "Open Sans", Arial, sans-serif;
   color: rgb(85, 82, 82);
   line-height: 1.857;
-  width: 350px;
   margin-bottom: 20px;
 }
 .news-list li {
   margin-right: 30px;
   float: left;
+  width: 350px;
 }
 .news-list li:nth-of-type(3n) {
   margin-right: 0;
