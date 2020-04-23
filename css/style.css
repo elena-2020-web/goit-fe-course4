@@ -36,13 +36,12 @@ a {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 0.786;
-  text-decoration: none;
 }
 .navigation-list-item a:hover,
 .navigation-list-item a:focus {
   color: rgb(26, 188, 156);
 }
-.navigation p {
+p a {
   font-size: 30px;
   font-family: "Roboto", Arial, sans-serif;
   color: #555252;
@@ -50,7 +49,7 @@ a {
   line-height: 1.067;
   float: left;
 }
-.navigation p::first-letter {
+.navigation a::first-letter {
   color: rgb(26, 188, 156);
   font-weight: bold;
 }
@@ -79,6 +78,7 @@ h2::after {
   margin-bottom: 0;
 }
 .product-list-item {
+  font-size: 0;
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
